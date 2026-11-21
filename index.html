@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#102a43">
+  <title>Three-question quiz | Student practice</title><link rel="stylesheet" href="style.css"><script src="app.js" defer></script>
+</head>
+<body>
+  <main class="shell">
+    <header class="hero"><p class="eyebrow">STUDENT PRACTICE • MILESTONE 4</p><h1>Three-question quiz</h1><p class="intro">Answer each question and see your final score.</p></header>
+    <section class="quiz-card" aria-labelledby="question">
+      <div class="quiz-meta"><span id="progress">QUESTION 1 OF 3</span><span class="score-pill" id="live-score">Score: 0</span></div>
+      <div class="progress-track" aria-hidden="true"><div id="progress-bar"></div></div>
+      <h2 id="question" tabindex="-1"></h2><div id="answers" class="answers"></div><p id="feedback" class="feedback" role="status" aria-live="polite"></p>
+      <div class="actions"><button id="next" class="primary" disabled>Next question →</button></div>
+      <section id="result" class="result" hidden aria-live="polite"><div class="result-icon" aria-hidden="true">✓</div><p class="eyebrow">QUIZ COMPLETED</p><h2>Your final score</h2><p id="final-score" class="final-score"></p><p id="result-message" class="result-message"></p><button id="restart" class="secondary">Try again</button></section>
+    </section>
+    <footer>Made for learning • HTML, CSS &amp; JavaScript</footer>
+  </main>
+</body></html>

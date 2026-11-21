@@ -1,0 +1,21 @@
+Milestone 4 – Three-question quiz
+
+App/source: Open index.html in a browser, or host this folder as a static website.
+
+Required checks:
+1. Read and used the supplied three-question array.
+2. Displayed one question with answer buttons at a time.
+3. Each question is counted only once; correct/incorrect feedback is displayed.
+4. The final score is displayed out of three after the final answer.
+
+Test cases to run and capture:
+- Correct-answer run: h1, CSS, 7 → 3/3.
+- Mixed-answer run: p, CSS, 5 → 1/3.
+
+What I changed:
+I completed the answer-button creation, one-answer-only checking, score update, question navigation and final-score display. I also added a restart option and visual feedback.
+
+What I learned:
+JavaScript event listeners can handle answer clicks, update a score and change page content without reloading the page.
+
+Important: Run both test cases in your browser and capture screenshots before submission. The scores above are expected results from the supplied answer key, not screenshots of completed browser runs.
